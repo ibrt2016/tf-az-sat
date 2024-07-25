@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "stack"
+  annotations:
+    github.com/project-slug: ibrt2016/tfc # Change the value to your github repo which contains terraform code.
+    backstage.io/techdocs-ref: dir:.
+  title: 'Infrastructure Automation' # you can give any title
+  description: An example of a Resource Group. # Change Description accordingly
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
